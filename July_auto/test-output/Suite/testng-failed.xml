@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listenersPackage.AnnotationTransformer"/>
+    <listener class-name="listenersPackage.ListenersClass"/>
+  </listeners>
+  <test thread-count="5" parallel="classes" name="chrome(failed)">
+    <classes>
+      <class name="maven.DemoPageTest1">
+        <methods>
+          <include name="setup"/>
+          <include name="z_iframeTest"/>
+          <include name="a_iframeTest"/>
+          <include name="testHandleMouseHover"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- maven.DemoPageTest1 -->
+      <class name="maven.DemoPageTest">
+        <methods>
+          <include name="z_iframeTest"/>
+          <include name="setup"/>
+          <include name="a_iframeTest"/>
+          <include name="testHandleMouseHover"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- maven.DemoPageTest -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

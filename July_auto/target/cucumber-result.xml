@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="350.974">
+    <testcase classname="Book a Slot for baby photoshoot" name="User is trying to login with incorrect credentials" time="38.882">
+        <system-out><![CDATA[Given User open Browser and navigates to landing page.......................passed
+Given User is on login pop..................................................passed
+When User enters "Cusion" and "Cusion123@"..................................passed
+And click on Login..........................................................passed
+Then "Wrong username or password." Error should be displayed on the Popup...passed
+And "Cusion" and "Cusion123@" are retained..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Book a Slot for baby photoshoot" name="User is trying to login with incorrect credentials 2" time="43.913">
+        <system-out><![CDATA[Given User open Browser and navigates to landing page.......................passed
+Given User is on login pop..................................................passed
+When User enters "June" and "June123@"......................................passed
+And click on Login..........................................................passed
+Then "Wrong username or password." Error should be displayed on the Popup...passed
+And "June" and "June123@" are retained......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Book a Slot for baby photoshoot" name="User is trying to purchase Baby Shower package before photoshoot in the cart with valid credentials" time="129.283">
+        <system-out><![CDATA[Given User open Browser and navigates to landing page.......................passed
+Given User is on login pop..................................................passed
+When User enters "AwwwDec" and "Aww@123"....................................passed
+And click on Login..........................................................passed
+Then "Login Successful. Redirecting..." should be displayed on the POpup....passed
+And MyAccount should be displayed after redirecting from login pop up.......passed
+When User mouse Hover on Maternity Service..................................passed
+And Select BabyShower.......................................................passed
+And Select "Awww Baby Shower Package" Package...............................passed
+Then Package detail page should displayed...................................passed
+When User enters BookingDate as"30/06/2021".................................passed
+And click on AddtoCart button...............................................passed
+Then Alert pop up should displayed with text "Please select some product options before adding this product to your cart.".passed
+And After accepting that pop up User stays on same page.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Book a Slot for baby photoshoot" name="User add photoshoot to cart and then see error on the billing page" time="100.354">
+        <system-out><![CDATA[Given User open Browser and navigates to landing page.......................passed
+Given User is on login pop..................................................passed
+When User enters "AwwwDec" and "Aww@123"....................................passed
+And click on Login..........................................................passed
+Then "Login Successful. Redirecting..." should be displayed on the POpup....passed
+And MyAccount should be displayed after redirecting from login pop up.......passed
+When User mouse Hover on Maternity Service..................................passed
+And Select Baby Photoshoot..................................................passed
+And Update the filter to 12800..............................................passed
+And Click on image of the product...........................................passed
+Then Product detail page should displayed with View prop button.............passed
+When User clicks on View Prop button........................................passed
+Then new window will open with drive link...................................passed
+When User close the second page and switch to parent page...................passed
+And click on Add to cart....................................................passed
+Then Addtocart successful message will be displayed.........................passed
+When User clicks on view cart button........................................passed
+Then User navigates to cart and product is added with quantity 1............passed
+When User Increases the cart quantity to "4"................................passed
+And User click on Checkout..................................................passed
+Then Billing page should be displayed.......................................passed
+When User clicks on Proced..................................................passed
+Then User can see error message on the top of the page......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Book a Slot for baby photoshoot" name="User trying to logout from application" time="38.089">
+        <system-out><![CDATA[Given User open Browser and navigates to landing page.......................passed
+Given User is on login pop..................................................passed
+When User enters "AwwwDec" and "Aww@123"....................................passed
+And click on Login..........................................................passed
+Then "Login Successful. Redirecting..." should be displayed on the POpup....passed
+And MyAccount should be displayed after redirecting from login pop up.......passed
+When User clicks on Logout..................................................passed
+Then User should be logged out and My Account button should not be displayed..passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,954 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 31570611400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open Browser and navigates to landing page",
+            "match": {
+              "location": "awwLogin.LoginPage.user_open_browser_and_navigates_to_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-19T17:58:37.741Z",
+        "line": 17,
+        "name": "User is trying to login with incorrect credentials",
+        "description": "",
+        "id": "book-a-slot-for-baby-photoshoot;user-is-trying-to-login-with-incorrect-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2601573300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on login pop",
+            "match": {
+              "location": "awwLogin.LoginPage.user_is_on_login_pop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4339886800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters \"Cusion\" and \"Cusion123@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cusion\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Cusion123@\"",
+                  "offset": 25
+                }
+              ],
+              "location": "awwLogin.LoginPage.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112036200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on Login",
+            "match": {
+              "location": "awwLogin.LoginPage.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52007100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "\"Wrong username or password.\" Error should be displayed on the Popup",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wrong username or password.\"",
+                  "offset": 0
+                }
+              ],
+              "location": "awwLogin.LoginPage.error_should_be_displayed_on_the_popup(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 90028100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "\"Cusion\" and \"Cusion123@\" are retained",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cusion\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Cusion123@\"",
+                  "offset": 13
+                }
+              ],
+              "location": "awwLogin.LoginPage.and_are_retained(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@abc"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 36818261600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open Browser and navigates to landing page",
+            "match": {
+              "location": "awwLogin.LoginPage.user_open_browser_and_navigates_to_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-19T17:59:16.658Z",
+        "line": 18,
+        "name": "User is trying to login with incorrect credentials",
+        "description": "",
+        "id": "book-a-slot-for-baby-photoshoot;user-is-trying-to-login-with-incorrect-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2522036800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on login pop",
+            "match": {
+              "location": "awwLogin.LoginPage.user_is_on_login_pop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4266557200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters \"June\" and \"June123@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"June\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"June123@\"",
+                  "offset": 23
+                }
+              ],
+              "location": "awwLogin.LoginPage.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129189300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on Login",
+            "match": {
+              "location": "awwLogin.LoginPage.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68017900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "\"Wrong username or password.\" Error should be displayed on the Popup",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wrong username or password.\"",
+                  "offset": 0
+                }
+              ],
+              "location": "awwLogin.LoginPage.error_should_be_displayed_on_the_popup(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102572800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "\"June\" and \"June123@\" are retained",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"June\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"June123@\"",
+                  "offset": 11
+                }
+              ],
+              "location": "awwLogin.LoginPage.and_are_retained(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@abc"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 34262713600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open Browser and navigates to landing page",
+            "match": {
+              "location": "awwLogin.LoginPage.user_open_browser_and_navigates_to_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-19T18:00:00.588Z",
+        "line": 22,
+        "name": "User is trying to purchase Baby Shower package before photoshoot in the cart with valid credentials",
+        "description": "",
+        "id": "book-a-slot-for-baby-photoshoot;user-is-trying-to-purchase-baby-shower-package-before-photoshoot-in-the-cart-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2495707400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on login pop",
+            "match": {
+              "location": "awwLogin.LoginPage.user_is_on_login_pop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4161995500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enters \"AwwwDec\" and \"Aww@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AwwwDec\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Aww@123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "awwLogin.LoginPage.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108028200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click on Login",
+            "match": {
+              "location": "awwLogin.LoginPage.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43006400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "\"Login Successful. Redirecting...\" should be displayed on the POpup",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login Successful. Redirecting...\"",
+                  "offset": 0
+                }
+              ],
+              "location": "awwLogin.LoginPage.should_be_displayed_on_the_p_opup(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 55012800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "MyAccount should be displayed after redirecting from login pop up",
+            "match": {
+              "location": "awwLogin.LoginPage.my_account_should_be_displayed_after_redirecting_from_login_pop_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58087082900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User mouse Hover on Maternity Service",
+            "match": {
+              "location": "awwLogin.LoginPage.user_mouse_hover_on_maternity_service()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21065655700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select BabyShower",
+            "match": {
+              "location": "awwLogin.LoginPage.select_baby_shower()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8561292900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select \"Awww Baby Shower Package\" Package",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Awww Baby Shower Package\"",
+                  "offset": 7
+                }
+              ],
+              "location": "awwLogin.LoginPage.select_package(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20025600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Package detail page should displayed",
+            "match": {
+              "location": "awwLogin.LoginPage.package_detail_page_should_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 285042500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User enters BookingDate as\"30/06/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 27
+                },
+                {
+                  "val": "06",
+                  "offset": 30
+                },
+                {
+                  "val": "2021",
+                  "offset": 33
+                }
+              ],
+              "location": "awwLogin.LoginPage.user_enters_booking_date_as(java.lang.Integer,java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92019600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "click on AddtoCart button",
+            "match": {
+              "location": "awwLogin.LoginPage.click_on_addto_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21004900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Alert pop up should displayed with text \"Please select some product options before adding this product to your cart.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please select some product options before adding this product to your cart.\"",
+                  "offset": 40
+                }
+              ],
+              "location": "awwLogin.LoginPage.alert_pop_up_should_displayed_with_text(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9002300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "After accepting that pop up User stays on same page",
+            "match": {
+              "location": "awwLogin.LoginPage.after_accepting_that_pop_up_user_stays_on_same_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@abc"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 38502924500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open Browser and navigates to landing page",
+            "match": {
+              "location": "awwLogin.LoginPage.user_open_browser_and_navigates_to_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-19T18:02:09.897Z",
+        "line": 40,
+        "name": "User add photoshoot to cart and then see error on the billing page",
+        "description": "",
+        "id": "book-a-slot-for-baby-photoshoot;user-add-photoshoot-to-cart-and-then-see-error-on-the-billing-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2437664400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User is on login pop",
+            "match": {
+              "location": "awwLogin.LoginPage.user_is_on_login_pop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4287519600,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User enters \"AwwwDec\" and \"Aww@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AwwwDec\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Aww@123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "awwLogin.LoginPage.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119009400,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "click on Login",
+            "match": {
+              "location": "awwLogin.LoginPage.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48012400,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "\"Login Successful. Redirecting...\" should be displayed on the POpup",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login Successful. Redirecting...\"",
+                  "offset": 0
+                }
+              ],
+              "location": "awwLogin.LoginPage.should_be_displayed_on_the_p_opup(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63012400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "MyAccount should be displayed after redirecting from login pop up",
+            "match": {
+              "location": "awwLogin.LoginPage.my_account_should_be_displayed_after_redirecting_from_login_pop_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54884922000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User mouse Hover on Maternity Service",
+            "match": {
+              "location": "awwLogin.LoginPage.user_mouse_hover_on_maternity_service()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Select Baby Photoshoot",
+            "match": {
+              "location": "awwLogin.LoginPage.select_baby_photoshoot()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Update the filter to 12800",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12800",
+                  "offset": 21
+                }
+              ],
+              "location": "awwLogin.LoginPage.update_the_filter_to(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 993600,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Click on image of the product",
+            "match": {
+              "location": "awwLogin.LoginPage.click_on_image_of_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Product detail page should displayed with View prop button",
+            "match": {
+              "location": "awwLogin.LoginPage.product_detail_page_should_displayed_with_view_prop_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User clicks on View Prop button",
+            "match": {
+              "location": "awwLogin.LoginPage.user_clicks_on_view_prop_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "new window will open with drive link",
+            "match": {
+              "location": "awwLogin.LoginPage.new_window_will_open_with_drive_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User close the second page and switch to parent page",
+            "match": {
+              "location": "awwLogin.LoginPage.user_close_the_second_page_and_switch_to_parent_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "click on Add to cart",
+            "match": {
+              "location": "awwLogin.LoginPage.click_on_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Addtocart successful message will be displayed",
+            "match": {
+              "location": "awwLogin.LoginPage.addtocart_successful_message_will_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User clicks on view cart button",
+            "match": {
+              "location": "awwLogin.LoginPage.user_clicks_on_view_cart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User navigates to cart and product is added with quantity 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 58
+                }
+              ],
+              "location": "awwLogin.LoginPage.user_navigates_to_cart_and_product_is_added_with_quantity(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User Increases the cart quantity to \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 36
+                }
+              ],
+              "location": "awwLogin.LoginPage.user_increases_the_cart_quantity_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User click on Checkout",
+            "match": {
+              "location": "awwLogin.LoginPage.user_click_on_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Billing page should be displayed",
+            "match": {
+              "location": "awwLogin.LoginPage.billing_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "User clicks on Proced",
+            "match": {
+              "location": "awwLogin.LoginPage.user_clicks_on_proced()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User can see error message on the top of the page",
+            "match": {
+              "location": "awwLogin.LoginPage.user_can_see_error_message_on_the_top_of_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@abc"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 31306510000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open Browser and navigates to landing page",
+            "match": {
+              "location": "awwLogin.LoginPage.user_open_browser_and_navigates_to_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-19T18:03:50.260Z",
+        "line": 67,
+        "name": "User trying to logout from application",
+        "description": "",
+        "id": "book-a-slot-for-baby-photoshoot;user-trying-to-logout-from-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2332952300,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User is on login pop",
+            "match": {
+              "location": "awwLogin.LoginPage.user_is_on_login_pop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4170927700,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "User enters \"AwwwDec\" and \"Aww@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AwwwDec\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Aww@123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "awwLogin.LoginPage.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128778400,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "click on Login",
+            "match": {
+              "location": "awwLogin.LoginPage.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79007900,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "\"Login Successful. Redirecting...\" should be displayed on the POpup",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login Successful. Redirecting...\"",
+                  "offset": 0
+                }
+              ],
+              "location": "awwLogin.LoginPage.should_be_displayed_on_the_p_opup(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65040500,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "MyAccount should be displayed after redirecting from login pop up",
+            "match": {
+              "location": "awwLogin.LoginPage.my_account_should_be_displayed_after_redirecting_from_login_pop_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User clicks on Logout",
+            "match": {
+              "location": "awwLogin.LoginPage.user_clicks_on_logout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999900,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User should be logged out and My Account button should not be displayed.",
+            "match": {
+              "location": "awwLogin.LoginPage.user_should_be_logged_out_and_my_account_button_should_not_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then ",
+            "doc_string": {
+              "line": 75,
+              "value": "\nHi user,\n   \n      you have been logged out successfully!...\n      \n      "
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@abc"
+          }
+        ]
+      }
+    ],
+    "name": "Book a Slot for baby photoshoot",
+    "description": "",
+    "id": "book-a-slot-for-baby-photoshoot",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/awwwmain.feature",
+    "tags": []
+  }
+]

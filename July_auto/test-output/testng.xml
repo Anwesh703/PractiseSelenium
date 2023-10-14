@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="maven.Naukrimain"/>
+      <class name="maven.Ass1"/>
+      <class name="maven.Assignment04"/>
+      <class name="maven.Assignment10"/>
+      <class name="maven.dropdown"/>
+      <class name="maven.NaukriCog"/>
+      <class name="maven.Testngtest"/>
+      <class name="maven.exceptionwithpage"/>
+      <class name="maven.DemoPageTest">
+      <methods>
+      <include name ="testHandleMouseHover"/>
+      <include name ="iframeTest"/>
+      </methods>
+      </class>
+      <class name="maven.AlertPopHandle"/>
+      <class name="maven.WebdriverFun"/>
+      <class name="maven.test2"/>
+      <class name="maven.Pra"/>
+      <class name="maven.Naukri"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;maven.Webdriver&apos; to &apos;WebdriverFun&apos;&#x0D;&#x0A;- Original project: &apos;July_auto&apos;&#x0D;&#x0A;- Original element: &apos;maven.Webdriver&apos;&#x0D;&#x0A;- Renamed element: &apos;maven.WebdriverFun&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Webdriver&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;maven{Webdriver.java[Webdriver" matchStrategy="1" name="WebdriverFun" qualified="false" references="true" similarDeclarations="false" stamp="1628500427734" textual="false" version="1.0"/>
+</session>

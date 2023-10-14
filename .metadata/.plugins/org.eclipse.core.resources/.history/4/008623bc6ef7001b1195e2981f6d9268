@@ -1,0 +1,35 @@
+package maven;
+
+import java.util.Iterator;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.By.ByLinkText;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class NaukriCog {
+	@Test
+	public void method() throws InterruptedException {
+	WebDriverManager.chromedriver().setup();
+	WebDriver driver=new ChromeDriver();
+	driver.get("https://www.naukri.com/");
+	String parent = driver.getWindowHandle();
+	System.out.println("Parent address is "+parent);
+	Set<String> str = driver.getWindowHandles();
+	System.out.println("Total opened tabs "+str.size());
+	 Iterator<String> it= str.iterator();
+     while(it.hasNext()) {
+    	 String child = it.next();
+    	 if(!parent.equals(child)) {
+    		 driver.get("https://company.naukri.com/popups/cognizant/05072021/cognizant-rs-05072021-250x250.gif");
+     	//driver.switchTo().window(child).manage().window().maximize();
+     	
+     	//driver.switchTo().window(child);
+     	//Thread.sleep(2000);
+     	//driver.close();
+     }}//driver.switchTo().window(parent);
+} }

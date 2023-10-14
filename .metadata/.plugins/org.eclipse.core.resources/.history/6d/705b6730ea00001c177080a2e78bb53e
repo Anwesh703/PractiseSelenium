@@ -1,0 +1,80 @@
+package awwwDefination;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import maven.BaseClass;
+
+public class loginFeaturesAww extends BaseClass{
+	/*static WebDriver driver;
+
+	@Given("User open Browser, enter URL and navigates to landing page")
+	public void user_open_browser_enter_URL_and_navigates_to_landing_page() throws IOException, InterruptedException {
+		 driver = lauchBrowser();
+	}
+	@When("User clicks on Signup button")
+	public void user_clicks_on_signup_button() throws InterruptedException {
+		driver.findElement(By.xpath("//a[@class='btn signupbtn']")).click();
+		Thread.sleep(2000);
+		
+	}
+	@When("Fill the login form by selecting Family\\/Friends option")
+	public void fill_the_login_form_by_selecting_family_friends_option() throws InterruptedException {
+		driver.findElement(By.xpath("//input[@value='Family/Friends']")).click();
+		driver.findElement(By.id("r_username")).sendKeys("AwwwDec");
+		driver.findElement(By.id("r_email")).sendKeys("awwwdec@mailinator.com");
+		driver.findElement(By.id("r_passwd")).sendKeys("Aww@123");
+		driver.findElement(By.id("re_passwd")).sendKeys("Aww@123");
+		driver.findElement(By.id("fullname")).sendKeys("December dec");
+		driver.findElement(By.id("duedate")).sendKeys("12/28/2021");
+		Thread.sleep(2000);
+	}
+	@When("click on Terms and Condition Checkbox")
+	public void click_on_terms_and_condition_checkbox() {
+		driver.findElement(By.name("vehicle")).click();
+	}
+	@When("Click on Setup your account")
+	public void click_on_setup_your_account() {
+		driver.findElement(By.className("submit_bt")).click();
+		
+	}
+	@Then("Registered Successfully Please login should be displayed")
+	public void Registered_Successfully_Please_login_should_be_displayed() throws InterruptedException {
+		System.out.println(driver.findElement(By.xpath("//p[@class='error']")).getText());//.equals("Registered Successfully. Please login")){
+		Thread.sleep(2000);
+		}
+		
+	
+	@Then("User is able to close the pop up")
+	public void user_is_able_to_close_the_pop_up() {
+		driver.findElement(By.xpath("(//button[@title='Close (Esc)'])[3]")).click();
+	}
+
+	@Given("User is on login pop")
+	public void user_is_on_login_pop() throws InterruptedException {
+		driver.findElement(By.xpath("//a[@class='btn loginbtn']")).click();
+	}
+	@When("User enters {string} and {string}")
+	public void user_enters_and(String string, String string2) {
+		driver.findElement(By.id("username")).sendKeys(string);
+		driver.findElement(By.id("password")).sendKeys(string2);
+	}
+	@When("click on Login")
+	public void click_on_login() {
+		driver.findElement(By.id("login_btn")).click();
+	}
+	@Then("Error should be displayed on the Popup")
+	public void error_should_be_displayed_on_the_popup() {
+		System.out.println(driver.findElement(By.xpath("//p[@class='status']")).getText());
+	}
+	@Then("{string} and {string} are retained")
+	public void and_are_retained(String string, String string2) {
+	    System.out.println(string+"  "+string2);
+	}
+	*/
+}

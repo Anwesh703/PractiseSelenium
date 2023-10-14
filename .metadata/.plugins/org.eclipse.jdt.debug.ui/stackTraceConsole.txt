@@ -1,0 +1,70 @@
+io.cucumber.junit.UndefinedStepException: The step 'User open Browser, enter URL and navigates to landing page' and 12 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User open Browser, enter URL and navigates to landing page")
+public void user_open_browser_enter_url_and_navigates_to_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is on login pop")
+public void user_is_on_login_pop() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters {string} and {string}")
+public void user_enters_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click on Login")
+public void click_on_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("{string} should be displayed on the POpup")
+public void should_be_displayed_on_the_p_opup(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("MyAccount should be displayed after redirecting from login pop up")
+public void my_account_should_be_displayed_after_redirecting_from_login_pop_up() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User mouse Hover on Maternity Service")
+public void user_mouse_hover_on_maternity_service() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Select BabyShower")
+public void select_baby_shower() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Select {string} Package")
+public void select_package(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Package detail page should displayed")
+public void package_detail_page_should_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters BookingDate as\"{int}\\/{int}\\/{int}\" and click on AddtoCart button")
+public void user_enters_booking_date_as_and_click_on_addto_cart_button(Integer int1, Integer int2, Integer int3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Alert pop up should displayed with text {string}")
+public void alert_pop_up_should_displayed_with_text(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("After accepting that pop up User stays on same page")
+public void after_accepting_that_pop_up_user_stays_on_same_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

@@ -1,0 +1,2 @@
+11:19:35.748 [main] ERROR maven.Log4JExample - Error is there in log
+11:19:35.751 [main] FATAL maven.Log4JExample - Fatal error in log

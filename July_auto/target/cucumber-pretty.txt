@@ -1,0 +1,72 @@
+
+@abc
+Scenario Outline: User is trying to login with incorrect credentials        [90m# src/test/java/features/awwwmain.feature:17[0m
+  [32mGiven [0m[32mUser open Browser and navigates to landing page[0m                     [90m# awwLogin.LoginPage.user_open_browser_and_navigates_to_landing_page()[0m
+  [32mGiven [0m[32mUser is on login pop[0m                                                [90m# awwLogin.LoginPage.user_is_on_login_pop()[0m
+  [32mWhen [0m[32mUser enters [0m[32m[1m"Cusion"[0m[32m and [0m[32m[1m"Cusion123@"[0m                                [90m# awwLogin.LoginPage.user_enters_and(java.lang.String,java.lang.String)[0m
+  [32mAnd [0m[32mclick on Login[0m                                                        [90m# awwLogin.LoginPage.click_on_login()[0m
+  [32mThen [0m[32m[0m[32m[1m"Wrong username or password."[0m[32m Error should be displayed on the Popup[0m [90m# awwLogin.LoginPage.error_should_be_displayed_on_the_popup(java.lang.String)[0m
+  [32mAnd [0m[32m[0m[32m[1m"Cusion"[0m[32m and [0m[32m[1m"Cusion123@"[0m[32m are retained[0m                                [90m# awwLogin.LoginPage.and_are_retained(java.lang.String,java.lang.String)[0m
+
+@abc
+Scenario Outline: User is trying to login with incorrect credentials        [90m# src/test/java/features/awwwmain.feature:18[0m
+  [32mGiven [0m[32mUser open Browser and navigates to landing page[0m                     [90m# awwLogin.LoginPage.user_open_browser_and_navigates_to_landing_page()[0m
+  [32mGiven [0m[32mUser is on login pop[0m                                                [90m# awwLogin.LoginPage.user_is_on_login_pop()[0m
+  [32mWhen [0m[32mUser enters [0m[32m[1m"June"[0m[32m and [0m[32m[1m"June123@"[0m                                    [90m# awwLogin.LoginPage.user_enters_and(java.lang.String,java.lang.String)[0m
+  [32mAnd [0m[32mclick on Login[0m                                                        [90m# awwLogin.LoginPage.click_on_login()[0m
+  [32mThen [0m[32m[0m[32m[1m"Wrong username or password."[0m[32m Error should be displayed on the Popup[0m [90m# awwLogin.LoginPage.error_should_be_displayed_on_the_popup(java.lang.String)[0m
+  [32mAnd [0m[32m[0m[32m[1m"June"[0m[32m and [0m[32m[1m"June123@"[0m[32m are retained[0m                                    [90m# awwLogin.LoginPage.and_are_retained(java.lang.String,java.lang.String)[0m
+
+@abc
+Scenario: User is trying to purchase Baby Shower package before photoshoot in the cart with valid credentials                [90m# src/test/java/features/awwwmain.feature:22[0m
+  [32mGiven [0m[32mUser open Browser and navigates to landing page[0m                                                                      [90m# awwLogin.LoginPage.user_open_browser_and_navigates_to_landing_page()[0m
+  [32mGiven [0m[32mUser is on login pop[0m                                                                                                 [90m# awwLogin.LoginPage.user_is_on_login_pop()[0m
+  [32mWhen [0m[32mUser enters [0m[32m[1m"AwwwDec"[0m[32m and [0m[32m[1m"Aww@123"[0m                                                                                   [90m# awwLogin.LoginPage.user_enters_and(java.lang.String,java.lang.String)[0m
+  [32mAnd [0m[32mclick on Login[0m                                                                                                         [90m# awwLogin.LoginPage.click_on_login()[0m
+  [32mThen [0m[32m[0m[32m[1m"Login Successful. Redirecting..."[0m[32m should be displayed on the POpup[0m                                                   [90m# awwLogin.LoginPage.should_be_displayed_on_the_p_opup(java.lang.String)[0m
+  [32mAnd [0m[32mMyAccount should be displayed after redirecting from login pop up[0m                                                      [90m# awwLogin.LoginPage.my_account_should_be_displayed_after_redirecting_from_login_pop_up()[0m
+  [32mWhen [0m[32mUser mouse Hover on Maternity Service[0m                                                                                 [90m# awwLogin.LoginPage.user_mouse_hover_on_maternity_service()[0m
+  [32mAnd [0m[32mSelect BabyShower[0m                                                                                                      [90m# awwLogin.LoginPage.select_baby_shower()[0m
+  [32mAnd [0m[32mSelect [0m[32m[1m"Awww Baby Shower Package"[0m[32m Package[0m                                                                              [90m# awwLogin.LoginPage.select_package(java.lang.String)[0m
+  [32mThen [0m[32mPackage detail page should displayed[0m                                                                                  [90m# awwLogin.LoginPage.package_detail_page_should_displayed()[0m
+  [32mWhen [0m[32mUser enters BookingDate as"[0m[32m[1m30[0m[32m/[0m[32m[1m06[0m[32m/[0m[32m[1m2021[0m[32m"[0m                                                                                [90m# awwLogin.LoginPage.user_enters_booking_date_as(java.lang.Integer,java.lang.Integer,java.lang.Integer)[0m
+  [32mAnd [0m[32mclick on AddtoCart button[0m                                                                                              [90m# awwLogin.LoginPage.click_on_addto_cart_button()[0m
+  [32mThen [0m[32mAlert pop up should displayed with text [0m[32m[1m"Please select some product options before adding this product to your cart."[0m [90m# awwLogin.LoginPage.alert_pop_up_should_displayed_with_text(java.lang.String)[0m
+  [32mAnd [0m[32mAfter accepting that pop up User stays on same page[0m                                                                    [90m# awwLogin.LoginPage.after_accepting_that_pop_up_user_stays_on_same_page()[0m
+
+@abc
+Scenario: User add photoshoot to cart and then see error on the billing page [90m# src/test/java/features/awwwmain.feature:40[0m
+  [32mGiven [0m[32mUser open Browser and navigates to landing page[0m                      [90m# awwLogin.LoginPage.user_open_browser_and_navigates_to_landing_page()[0m
+  [32mGiven [0m[32mUser is on login pop[0m                                                 [90m# awwLogin.LoginPage.user_is_on_login_pop()[0m
+  [32mWhen [0m[32mUser enters [0m[32m[1m"AwwwDec"[0m[32m and [0m[32m[1m"Aww@123"[0m                                   [90m# awwLogin.LoginPage.user_enters_and(java.lang.String,java.lang.String)[0m
+  [32mAnd [0m[32mclick on Login[0m                                                         [90m# awwLogin.LoginPage.click_on_login()[0m
+  [32mThen [0m[32m[0m[32m[1m"Login Successful. Redirecting..."[0m[32m should be displayed on the POpup[0m   [90m# awwLogin.LoginPage.should_be_displayed_on_the_p_opup(java.lang.String)[0m
+  [32mAnd [0m[32mMyAccount should be displayed after redirecting from login pop up[0m      [90m# awwLogin.LoginPage.my_account_should_be_displayed_after_redirecting_from_login_pop_up()[0m
+  [32mWhen [0m[32mUser mouse Hover on Maternity Service[0m                                 [90m# awwLogin.LoginPage.user_mouse_hover_on_maternity_service()[0m
+  [32mAnd [0m[32mSelect Baby Photoshoot[0m                                                 [90m# awwLogin.LoginPage.select_baby_photoshoot()[0m
+  [32mAnd [0m[32mUpdate the filter to [0m[32m[1m12800[0m                                             [90m# awwLogin.LoginPage.update_the_filter_to(java.lang.Integer)[0m
+  [32mAnd [0m[32mClick on image of the product[0m                                          [90m# awwLogin.LoginPage.click_on_image_of_the_product()[0m
+  [32mThen [0m[32mProduct detail page should displayed with View prop button[0m            [90m# awwLogin.LoginPage.product_detail_page_should_displayed_with_view_prop_button()[0m
+  [32mWhen [0m[32mUser clicks on View Prop button[0m                                       [90m# awwLogin.LoginPage.user_clicks_on_view_prop_button()[0m
+  [32mThen [0m[32mnew window will open with drive link[0m                                  [90m# awwLogin.LoginPage.new_window_will_open_with_drive_link()[0m
+  [32mWhen [0m[32mUser close the second page and switch to parent page[0m                  [90m# awwLogin.LoginPage.user_close_the_second_page_and_switch_to_parent_page()[0m
+  [32mAnd [0m[32mclick on Add to cart[0m                                                   [90m# awwLogin.LoginPage.click_on_add_to_cart()[0m
+  [32mThen [0m[32mAddtocart successful message will be displayed[0m                        [90m# awwLogin.LoginPage.addtocart_successful_message_will_be_displayed()[0m
+  [32mWhen [0m[32mUser clicks on view cart button[0m                                       [90m# awwLogin.LoginPage.user_clicks_on_view_cart_button()[0m
+  [32mThen [0m[32mUser navigates to cart and product is added with quantity [0m[32m[1m1[0m           [90m# awwLogin.LoginPage.user_navigates_to_cart_and_product_is_added_with_quantity(java.lang.Integer)[0m
+  [32mWhen [0m[32mUser Increases the cart quantity to [0m[32m[1m"4"[0m                               [90m# awwLogin.LoginPage.user_increases_the_cart_quantity_to(java.lang.String)[0m
+  [32mAnd [0m[32mUser click on Checkout[0m                                                 [90m# awwLogin.LoginPage.user_click_on_checkout()[0m
+  [32mThen [0m[32mBilling page should be displayed[0m                                      [90m# awwLogin.LoginPage.billing_page_should_be_displayed()[0m
+  [32mWhen [0m[32mUser clicks on Proced[0m                                                 [90m# awwLogin.LoginPage.user_clicks_on_proced()[0m
+  [32mThen [0m[32mUser can see error message on the top of the page[0m                     [90m# awwLogin.LoginPage.user_can_see_error_message_on_the_top_of_the_page()[0m
+
+@abc
+Scenario: User trying to logout from application                                [90m# src/test/java/features/awwwmain.feature:67[0m
+  [32mGiven [0m[32mUser open Browser and navigates to landing page[0m                         [90m# awwLogin.LoginPage.user_open_browser_and_navigates_to_landing_page()[0m
+  [32mGiven [0m[32mUser is on login pop[0m                                                    [90m# awwLogin.LoginPage.user_is_on_login_pop()[0m
+  [32mWhen [0m[32mUser enters [0m[32m[1m"AwwwDec"[0m[32m and [0m[32m[1m"Aww@123"[0m                                      [90m# awwLogin.LoginPage.user_enters_and(java.lang.String,java.lang.String)[0m
+  [32mAnd [0m[32mclick on Login[0m                                                            [90m# awwLogin.LoginPage.click_on_login()[0m
+  [32mThen [0m[32m[0m[32m[1m"Login Successful. Redirecting..."[0m[32m should be displayed on the POpup[0m      [90m# awwLogin.LoginPage.should_be_displayed_on_the_p_opup(java.lang.String)[0m
+  [32mAnd [0m[32mMyAccount should be displayed after redirecting from login pop up[0m         [90m# awwLogin.LoginPage.my_account_should_be_displayed_after_redirecting_from_login_pop_up()[0m
+  [32mWhen [0m[32mUser clicks on Logout[0m                                                    [90m# awwLogin.LoginPage.user_clicks_on_logout()[0m
+  [32mThen [0m[32mUser should be logged out and My Account button should not be displayed.[0m [90m# awwLogin.LoginPage.user_should_be_logged_out_and_my_account_button_should_not_be_displayed(java.lang.String)[0m
